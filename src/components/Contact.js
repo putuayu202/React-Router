@@ -1,9 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Modal from "./Modal";
 
 const Contact = () =>{
     return(
         <div>
+            <Modal/>
             <NavLink to="/card/danov">
                 <div 
                 className="ui raised very padded text container segment"
